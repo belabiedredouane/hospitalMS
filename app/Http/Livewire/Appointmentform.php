@@ -32,7 +32,7 @@ class Appointmentform extends Component
             'phone'         => $this->phone,
             'stime'       => $this->stime,
             'address'       => $this->address,
-            'doctor'       => $this->doctor,
+            'doctor_id'       => $this->doctor,
             'message' => $this->message,
         ]);
 

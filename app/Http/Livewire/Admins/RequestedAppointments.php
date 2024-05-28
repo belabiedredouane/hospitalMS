@@ -104,7 +104,7 @@ class RequestedAppointments extends Component
     }
 
 
-    public function show_create_form()
+    public function show_create_form1()
     {
         $this->_page = "create";
     }

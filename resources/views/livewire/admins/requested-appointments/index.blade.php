@@ -6,7 +6,7 @@
                     <h3 class="text-info">{{ env('APP_NAME') }} Requested Appointments</h3>
                 </div>
                 <div class="col-auto">
-                    <button class="btn btn-primary" wire:click="show_create_form">Add New</button>
+                    <button class="btn btn-primary" wire:click="show_create_form1">Add New</button>
                 </div>
             </div>
             <div>
@@ -70,14 +70,14 @@
                                     </td>
                                 </tr>
                             @empty
+                                {{-- <td class="text-warning">{{ __('Null') }}</td>
                                 <td class="text-warning">{{ __('Null') }}</td>
                                 <td class="text-warning">{{ __('Null') }}</td>
                                 <td class="text-warning">{{ __('Null') }}</td>
                                 <td class="text-warning">{{ __('Null') }}</td>
                                 <td class="text-warning">{{ __('Null') }}</td>
                                 <td class="text-warning">{{ __('Null') }}</td>
-                                <td class="text-warning">{{ __('Null') }}</td>
-                                <td class="text-warning">{{ __('Null') }}</td>
+                                <td class="text-warning">{{ __('Null') }}</td> --}}
                                 </tr>
                             @endforelse
                         </tbody>
